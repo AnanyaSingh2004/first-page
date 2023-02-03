@@ -1,0 +1,211 @@
+ /******************************* For Band in nav ****************************/ 
+
+ .navbar-brand
+   {
+       font-family: 'arial';
+       font-size: 42px;
+       font-weight: bold;
+       color: rgb(232,27,122) !important;
+    }
+
+
+     
+ /*        1) !important means that "this is important".
+       
+           2) It ignore all the by default rules, and apply !important rule.
+
+           3) The !important keyword must be placed at the end of the line. 
+
+           4) It will override all previous styling rules for that specific property. */
+
+
+
+ /********************** For dropdown-menu at mouse hover ****************************/ 
+
+
+  .dropdown:hover>.dropdown-menu 
+     {
+        display: block;
+	background-color:rgba(232,27,122,0.2);
+     }
+
+
+
+ /********************** For Button ****************************/ 
+
+  .purpleBtn
+   {
+     background-color:rgb(232,27,122);
+     color:white;
+     border-radius: 50px;
+   
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-left: 50px;
+ 
+   }
+
+
+
+/**********************  CSS Code for Heading Title  ****************************/ 
+
+ .heading-title 
+   {
+     padding-bottom: 40px;
+   } 
+
+ .heading-title h2 
+  {
+     font-size: 14px;
+     font-weight: 500;
+     padding: 0;
+     line-height: 1px;
+     margin: 0 0 5px 0;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     color: #aaaaaa;
+     font-family: sans-serif;
+  }
+
+.heading-title h2::after 
+  {
+     content: "";
+     width: 120px;
+     height: 1px;  
+     display: inline-block;
+     background: #9ae1af;
+     margin: 4px 10px; 
+  }
+
+.heading-title p 
+  {
+     margin: 0;
+     font-size: 36px;
+     font-weight: 700;
+     text-transform: uppercase;
+     font-family: sans-serif;
+     color: #37423b;
+   }
+ /**************************CSS code for fifth container***********************/
+.container-fluid-fifth
+{
+	margin-top:5px;
+	margin-bottom:3px;
+	text-align:center;
+	background-color:rgba(232,27,122,0.2);
+	
+}
+
+.h2-fifth
+{
+	line-height:100px;
+	
+}
+
+.card-fifth
+{
+	margin-top:80px;
+
+}
+
+
+.image
+{	
+	width: 65%;
+	border-radius: 50%; 
+	margin: auto;
+	margin-top: -30%;
+	box-shadow:0px 0px 0px 5px rgba(232,27,122,0.8);
+}
+
+/************************CSS Code for sixth container******************************/
+.circularcard
+{
+	box-shadow:0px 5px 2px 5px rgba(199,186,186,0.9);
+	border-radius:50%;
+	width:200px;
+	height:200px;
+	line-height:200px;
+	margin:auto;
+	text-align:center;
+	font-size:25px;
+	font-weight:bold;
+	padding:2px;
+}
+
+/*********************CSS Code of Seventh Container******************************/
+.container-fluid-seventh
+{
+	margin-top:10px;
+	margin-bottom:5px;
+	text-align:center;
+	background-color:rgba(232,27,122,0.2);
+	
+}
+.b
+{
+	text-align:left;
+	padding:10px;
+}
+.p
+{
+	text-align:justify;
+	padding:10px;
+}
+/******************************* CSS for footer****************************/ 
+
+   footer
+    {
+              background-color:#000;
+              color:white;
+              padding:40px;
+     }
+
+
+  footer a
+     {
+             text-decoration:none;
+             color:white;
+     }
+
+
+  footer a:hover
+     {
+             text-decoration:none;
+             color:yellow;
+             font-weight:bold;
+      }
+
+
+/******************************* CSS for Social icons****************************/ 
+
+    footer #socialicons 
+       {
+           list-style: none;
+           padding: 0px;
+           margin: 0px;
+       }
+
+    footer #socialicons li
+      {
+          display:inline-block;
+          text-align:center;
+       }
+
+    footer #socialicons li a
+      {
+           display:block;
+           margin-right:20px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+     
